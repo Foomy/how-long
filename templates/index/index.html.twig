@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+    <div id="time-tracking-form" data-js="form">
+        <div class="form-group" data-js="row">
+            <label for="ts-1-begin">Timespan 1:</label>
+            <input name="ts-1-begin" id="ts-1-begin" type="time">
+            <input name="ts-1-end" id="ts-1-end" type="time">
+            <button type="button" data-type="add-row-btn"><i class="fas fa-plus"></i></button>
+        </div>
+    </div>
+{% endblock %}
