@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/app.css">
     <script src="js/app.js"></script>
     <script src="js/bootstrap/bootstrap.js"></script>
+    <script src="js/modules/utilities.js"></script>
+    <script src="js/modules/main-form.js"></script>
 </head>
 <body>
     <header class="container">
