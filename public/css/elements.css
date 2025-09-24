@@ -1,0 +1,20 @@
+blockquote {
+    padding: 5px 10px;
+}
+blockquote .quote:before {
+    content: '“';
+    float: left;
+    font-family: serif;
+    font-size: 3em;
+    color: #777;
+    margin: -15px 5px;
+}
+
+blockquote .author {
+    text-indent: 40px;
+    line-height: 2.7em;
+}
+
+blockquote .author:before {
+    content: '-- ';
+}
